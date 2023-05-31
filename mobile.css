@@ -1,0 +1,294 @@
+@media (min-width: 280px) and (max-width: 650px){
+    .home, .first-feature, .second-feature, .sixth-section, .footer-container{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    h1{
+        font-size: 10vw;
+        width: auto;
+        font-weight: 700;
+        margin-bottom: 2px;
+        font-family: 'gordita';
+    }
+    h3{
+        font-family: 'gordita';
+    }
+    p{
+        font-weight: 400;
+        font-size: 5vw;
+        font-family: 'quicksand';
+    }
+    .arrow {
+        display: flex;
+    }
+    .header-button, .first, .track, .last-button {
+        background-color: #B654DA;
+        border: none;
+        border-radius: 1.1vw;
+        width: 40vw;
+        height: 15vw;
+        font-weight: 350;
+        font-size: 5vw;
+        color: white;
+        font-family: 'quicksand';
+    }
+    header {
+        display: flex;
+        padding: 5vh;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo {
+        height: 9vw;
+    }
+    .home {
+        text-align: center;
+        height: 105vh;
+    }
+    .home p{
+        font-size: 5vw;
+    }
+    .get-started-text {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0;
+    }
+    .phone {
+        overflow: hidden;
+    }
+    .phone-app {
+        margin-top: -10vh;
+        margin-left: -15vw;
+        width: 165vw;
+        height: 83vh;
+    }
+    .arrow{
+        position: absolute;
+        margin-left: 33vh;
+        margin-top: -12vh;
+    }
+    .emoji-2, .navbar, .para-home3, .header-button, .para-home1 {
+        display: none;
+    }
+    .menu {
+        display: flex;
+    }
+    .para-home {
+        display: block;
+    }
+
+    .first-feature {
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 110vh;
+        text-align: center;
+    }
+    .card-text {
+        margin-top: -15vh;
+    }
+    .first-feature img{
+        width: 80vw;
+        margin-top: -20vh;
+    }
+    .first-feature h1, .second-feature h1, .fourth-section h1{
+        font-size: 9vw;
+        width: auto;
+        font-weight: 700;
+        margin-bottom: 2vh;
+        font-family: 'gordita';
+    }
+    .first-feature p, .second-feature p, .fourth-section p, .fifth-section p{
+            font-weight: 400;
+            font-size: 4vw;
+            font-family: 'quicksand';
+    }
+    /*third section*/
+    .second-feature {
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -35vh;
+        height: 100vh;
+        text-align: center;
+    }
+    .second-feature img{
+        width: 85vw;
+        margin-top: -5vh;
+    }
+    .para1, .transaction, .track{
+        display: none;
+    }
+    .para2, .transaction1{
+        display: block;
+    }
+    /*===fourth section===*/
+    .fourth-section {
+        background: linear-gradient(153.71deg, #B654DA -6.52%, #D189EB 101.38%);;
+        color: white;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fourth-section h1{
+        margin-top: -5vw;
+        margin-bottom: 8vw;
+    }
+    .fourth-section p{
+        margin-bottom: 8vw;
+    }
+    .fourth-button {
+        background-color: #0DD1E0;
+        border: none;
+        border-radius: 2vw;
+        width: 40vw;
+        height: 13vw;
+        font-weight: 350;
+        font-size: 5vw;
+        color: white;
+        font-family: 'quicksand';
+    }
+    .fourth-text {
+        margin-bottom: 0vw;
+        text-align: center;
+    }
+    .join-us2 {
+        display: block;
+
+    }
+    .emoji-2, .join-us {
+        display: none;
+    }
+    /*===Fifth Section==*/
+    .fifth-section {
+        background-color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 80vh;
+    }
+
+    .card {
+        height: 35vh;
+        width: 52vw;
+        position: relative;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 8vw;
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+    .users, .class-text{
+        display: none;
+    }
+    .class-text2, .users2 {
+        display: block;
+    }
+    .sammyfash {
+        display: none;
+    }
+    .man {
+        border-radius: 15vw;
+        margin-top: 3vh;
+    }
+    .backward, .forward {
+        position: absolute;
+    }
+    .backward {
+        height: 5vh;
+        top: 30vw;
+        left: -6.5vw;
+    }
+    .forward {
+        top: 30vw; 
+        right: -6.5vw;
+        height: 5vh;
+    }
+/*===sixth section===*/
+    .sixth-section {
+        background-color: aliceblue;
+        height: 90vh;
+        margin-top: -5vh;
+    }
+    .container {
+        background: linear-gradient(138.56deg, #42A2E7 -52.51%, #00DBDE 95.06%);    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 8vw;
+        text-align: center;
+        height: 70vh;
+        width: 82vw;
+        overflow: hidden;
+        color: white;
+        margin-top: -15vw;
+    }
+    .long-hand {
+        margin-bottom: -4vh;
+        margin-left: -7vw;
+        width: 75vw;
+        height: 30vh;
+
+    }
+    .mobile-view{
+        display: block;
+    }
+    .start-text {
+        display: none;
+    }
+    .sixth-section button{
+        height: 13vw;
+        margin-top: 2vh;
+        border-radius: 2vw;
+    }
+    /*===Footer==*/
+    .subscribe-footer, .subscribe-footer2{
+        display: none;
+    }
+    .footer-container {
+        padding-bottom: 18vh;
+        padding-top: 8vh;
+        padding-right: 0vh;
+        padding-left: 0vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        }
+        .footer-logo {
+            height: 15vw;
+            margin-top: 2vh;
+            margin-bottom: 4vh;
+        }
+        .footer-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        footer a{
+            display: flex;
+            margin-left: 0px;
+            font-size: 6vw;
+            font-weight: 300;
+            font-family: 'quicksand';
+            margin-bottom: 0vh;
+            margin-top: 1vh;
+        }
+        footer h3 {
+            display: flex;
+            margin-left: 0px;
+            font-size: 5vw;
+            font-weight: 550;
+            font-family: 'gordita';
+            margin-bottom: 2vh;
+            margin-top: 5vh;
+        }
+}
